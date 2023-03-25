@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cmath>
-#include "recursive.hpp"
 #include "non_recursive.hpp"
+#include "recursive.hpp"
+
 
 
 int main()
@@ -21,6 +22,7 @@ int main()
     else
     {
         // Print results
+        // Unnecessary comment to justify new brach
         std::cout << "Calculated minimal number of moves required to solve the puzzle is: " << std::endl;
         std::cout << non_recursive(levels) << " using non-recursive method;" << std::endl;
         std::cout << recursive(levels) << " using recursive method." << std::endl;
