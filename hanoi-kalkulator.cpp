@@ -5,10 +5,7 @@ using namespace std;
 
 double non_recursive(int n)
 {
-    double H;
-    H = pow(2, n) - 1;
-
-    return H;
+    return pow(2, n) - 1;
 }
 
 double recursive(int n)
