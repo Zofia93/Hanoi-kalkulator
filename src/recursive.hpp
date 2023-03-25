@@ -3,7 +3,7 @@
 
 double recursive(int n)
 {
-    double H; // int can be too small for more levels ~> 14
+    double H; // int will be too small for more levels ~> 14
     if (n == 0)
     {
         H = 0;
