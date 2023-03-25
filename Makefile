@@ -6,7 +6,7 @@ build:
 .PHONY: test
 test:
 	mkdir -p dist
-	g++  -Wall -Wextra -pedantic-errors -std=gnu++2a -o dist/test src/main.cpp test/test.cpp
+	g++  -Wall -Wextra -pedantic-errors -std=gnu++2a -o dist/test test/test.cpp
 	dist/test
 
 .PHONY: clean
